@@ -1,0 +1,89 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.box {
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  background: rgba(0, 0, 0, 0.47);
+  border-radius: 15px;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+div.logo h1 {
+  color: rgb(0,221,0);
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+
+.green_bar {
+  background-color: rgb(0,221,0);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+div.row h2 {
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+div.row p {
+  font-size: 15px;
+  line-height: 2px;
+}
+
+.charge_bar {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#charge_bar1 {
+  width: 350px;
+  background-color: rgb(245,180,83);
+}
+
+#charge_bar2 {
+  width: 600px;
+  background-color: rgb(0,221,0);
+}
+
+#charge_bar3 {
+  width: 100px;
+  background-color: rgba(190,65,65);
+}
+
+footer {
+  color: rgb(0,221,0);
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
